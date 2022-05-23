@@ -10,19 +10,17 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet"> 
-	<link rel="stylesheet" type="text/css" href="styles.css"/>
+	<link rel="stylesheet" type="text/css" href="../styles.css"/>
     </head>
     <body>
 	<div class="container">
 	    <h2>My homelab</h2>
 	    <p>This page is dedicated to my homelab. This is where I do all the learning by running services and doing experiments.</p>
-	    <img src="../assets/homelab.jpg" alt="Picture of my homelab">
+	    <img src="../assets/homelab.jpg" alt="Picture of my homelab" class="homelab-img">
 	    <h3>Details</h3>
-	    <p>The two lenovo PCs on the left of the rack run debian. I use them to learn about stuff like docker and ansible.</p>
-	    <p>The HP workstation on the bottom runs Windows Server 2022 and I use it to learn about Active Directory, Windows Deployment Services and the like.</p>
-	    <p>The HP Microserver on the right is my firewall/router which runs OPNsense. The Pi on top runs Pi-hole.</p>
+		<p>Every desktop in my lab runs <a href="https://proxmox.com" target="_blank">Proxmox</a> in a cluster. I host stuff from <a href="https://searx.github.io/searx/" target="_blank">SearXNG</a> to <a href="https://nextcloud.com/">Nextcloud</a>, all in LXC containers. Running my homelab has taught me alot about stuff like <a href="https://www.ansible.com/" target="_blank">Ansible</a> and <a href="https://www.docker.com/" target="_blank">Docker</a>.</p>
+		<p>The HP Microserver on the right is my firewall/router which runs <a href="https://opnsense.org/" tgert="_blank">OPNsense</a>. The Pi on top runs Pi-hole.</p>
 	    <p>There is a Cisco Catalyst 2960-X, a TP-Link 1Gbps managed switch and a patch panel on top of the rack. I use the OPNsense box and the switches together to learn about network administration.</p>
-	    <p>Last but not least is the HP workstation on the right, which runs OpenBSD. It actually hosts this website.</p>
 	    <p>All of this gear I've gotten for free from my past/current workplace. The switch, rack and Pi I paid for myself.</p>
 	</div>
     </body>
