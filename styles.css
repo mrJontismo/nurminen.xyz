@@ -34,8 +34,12 @@ img {
 }
 
 .homelab-img {
-    max-width: 100%;
     height: 600px;
+}
+
+.footer-media {
+	padding: 0px 10px;
+	float: left;
 }
 
 
